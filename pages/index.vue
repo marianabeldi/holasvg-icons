@@ -1,7 +1,7 @@
 <template>
   <div class="main-wrapper">
     <b class="top"></b>
-    <h1><span class="home-link"><nuxt-link to="/">hola svg</nuxt-link></span>Free Open SVG <span class="highlight">Icons</span></h1>
+    <h1><span class="home-link"><a href="https://holasvg.com/">hola svg</a></span>Free Open SVG <span class="highlight">Icons</span></h1>
     <h2>
       Learn how to customize them
       <a rel="noopener" target="_blank" href="https://css-tricks.com/how-to-simplify-svg-code-using-basic-shapes/">here</a>.
