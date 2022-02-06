@@ -1,4 +1,4 @@
-# test
+# Hola SVG icons
 
 ## Build Setup
 
