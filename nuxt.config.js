@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'test',
+    title: 'Hola SVG Icons',
     htmlAttrs: {
       lang: 'en'
     },

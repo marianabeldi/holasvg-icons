@@ -2586,7 +2586,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "test",
+      "title": "Hola SVG Icons",
       "htmlAttrs": {
         "lang": "en"
       },
