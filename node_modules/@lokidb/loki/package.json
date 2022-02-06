@@ -1,0 +1,13 @@
+{
+  "name": "@lokidb/loki",
+  "description": "Fast document oriented javascript in-memory database",
+  "author": "Various authors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LokiJS-Forge/LokiDB.git"
+  },
+  "main": "lokidb.loki.js",
+  "types": "./types/loki/src/index.d.ts",
+  "version": "2.1.0"
+}

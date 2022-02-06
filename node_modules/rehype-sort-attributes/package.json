@@ -1,0 +1,34 @@
+{
+  "name": "rehype-sort-attributes",
+  "version": "3.0.2",
+  "description": "rehype plugin to reorder attributes based on how often they occur",
+  "license": "MIT",
+  "keywords": [
+    "unified",
+    "rehype",
+    "rehype-plugin",
+    "plugin",
+    "html",
+    "minify",
+    "mangle",
+    "attribute",
+    "sort"
+  ],
+  "repository": "https://github.com/rehypejs/rehype-minify/tree/main/packages/rehype-sort-attributes",
+  "bugs": "https://github.com/rehypejs/rehype-minify/issues",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/unified"
+  },
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com>"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "unist-util-visit": "^2.0.0"
+  },
+  "xo": false
+}

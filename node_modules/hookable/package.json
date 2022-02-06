@@ -1,0 +1,49 @@
+{
+  "name": "hookable",
+  "version": "4.4.1",
+  "description": "Awaitable hooks for Node.js",
+  "keywords": [
+    "hook",
+    "hookable",
+    "plugin",
+    "tapable",
+    "tappable"
+  ],
+  "repository": "nuxt-contrib/hookable",
+  "license": "MIT",
+  "contributors": [
+    "Sebastien Chopin (@Atinux)",
+    "Clark Du (@clarkdo)",
+    "Pooya Parsa (@pi0)"
+  ],
+  "main": "./dist/hookable.js",
+  "module": "./dist/hookable.mjs",
+  "browser": "./dist/hookable.umd.js",
+  "types": "./types/hookable.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "siroc build && yarn build:browser",
+    "build:browser": "bili src/hookable.ts --format umd --minify --module-name Hookable",
+    "lint": "eslint --ext .ts src",
+    "prepublish": "yarn build",
+    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && yarn jest"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/jest": "latest",
+    "babel-jest": "latest",
+    "bili": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "rollup-plugin-typescript2": "latest",
+    "siroc": "latest",
+    "standard-version": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/global/Footer.vue"
+  },
+  "InfoBox": {
+    "description": "Auto imported from components/global/InfoBox.vue"
+  },
+  "PrevNext": {
+    "description": "Auto imported from components/global/PrevNext.vue"
+  },
+  "AppSearchInput": {
+    "description": "Auto imported from components/AppSearchInput.vue"
+  },
+  "Author": {
+    "description": "Auto imported from components/Author.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "TheHeader": {
+    "description": "Auto imported from components/TheHeader.vue"
+  }
+}

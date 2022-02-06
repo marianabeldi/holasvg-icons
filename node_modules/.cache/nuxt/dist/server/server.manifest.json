@@ -1,0 +1,27 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/app-search-input.js": "components/app-search-input.js",
+    "components/author.js": "components/author.js",
+    "components/footer.js": "components/footer.js",
+    "components/info-box.js": "components/info-box.js",
+    "components/logo.js": "components/logo.js",
+    "components/prev-next.js": "components/prev-next.js",
+    "components/the-header.js": "components/the-header.js",
+    "pages/icons/_slug.js": "pages/icons/_slug.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/app-search-input.js": "components/app-search-input.js.map",
+    "components/author.js": "components/author.js.map",
+    "components/footer.js": "components/footer.js.map",
+    "components/info-box.js": "components/info-box.js.map",
+    "components/logo.js": "components/logo.js.map",
+    "components/prev-next.js": "components/prev-next.js.map",
+    "components/the-header.js": "components/the-header.js.map",
+    "pages/icons/_slug.js": "pages/icons/_slug.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
