@@ -3,14 +3,12 @@
     "name": "icons-slug",
     "path": "/icons/:slug?",
     "component": "/Users/mariana.beldi/sites/holasvg-icons/pages/icons/_slug.vue",
-    "chunkName": "pages/icons/_slug",
-    "_name": "_16abcc02"
+    "chunkName": "pages/icons/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/mariana.beldi/sites/holasvg-icons/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7ca15d08"
+    "chunkName": "pages/index"
   }
 ]
