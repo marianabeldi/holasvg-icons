@@ -2591,6 +2591,12 @@ async function createApp(ssrContext, config = {}) {
         "lang": "en"
       },
       "meta": [{
+        "name": "title",
+        "content": "Hola SVG Icons"
+      }, {
+        "name": "description",
+        "content": "Free Open SVG Icons"
+      }, {
         "charset": "utf-8"
       }, {
         "name": "viewport",
@@ -2602,6 +2608,36 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "name": "format-detection",
         "content": "telephone=no"
+      }, {
+        "property": "og:type",
+        "content": "website"
+      }, {
+        "property": "og:url",
+        "content": "https:\u002F\u002Ficons.holasvg.com"
+      }, {
+        "property": "og:title",
+        "content": "Hola SVG Icons"
+      }, {
+        "property": "og:description",
+        "content": "Free Open SVG Icons"
+      }, {
+        "property": "og:image",
+        "content": "https:\u002F\u002Ficons.holasvg.com\u002Fholasvg-icons.gif"
+      }, {
+        "property": "twitter:card",
+        "content": "summary_large_image"
+      }, {
+        "property": "twitter:url",
+        "content": "https:\u002F\u002Ficons.holasvg.com"
+      }, {
+        "property": "twitter:title",
+        "content": "Hola SVG Icons"
+      }, {
+        "property": "twitter:description",
+        "content": "Free Open SVG Icons"
+      }, {
+        "property": "twitter:image",
+        "content": "https:\u002F\u002Ficons.holasvg.com\u002Fholasvg-icons.gif"
       }],
       "link": [{
         "rel": "icon",

@@ -9,10 +9,22 @@ export default {
       lang: 'en'
     },
     meta: [
+      { name: 'title', content: "Hola SVG Icons" },
+      { name: 'description', content: "Free Open SVG Icons" },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { property: 'og:type', content: "website" },
+      { property: 'og:url', content: "https://icons.holasvg.com" },
+      { property: 'og:title', content: "Hola SVG Icons" },
+      { property: 'og:description', content: "Free Open SVG Icons" },
+      { property: 'og:image', content: "https://icons.holasvg.com/holasvg-icons.gif" },
+      { property: 'twitter:card', content: "summary_large_image" },
+      { property: 'twitter:url', content: "https://icons.holasvg.com" },
+      { property: 'twitter:title', content: "Hola SVG Icons" },
+      { property: 'twitter:description', content: "Free Open SVG Icons" },
+      { property: 'twitter:image', content: "https://icons.holasvg.com/holasvg-icons.gif" },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
