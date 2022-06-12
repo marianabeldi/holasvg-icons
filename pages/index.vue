@@ -248,18 +248,28 @@ export default {
       this.selectedIcon.title = icon.title
     },
     holacodepen(icon) {
+      var strokeDashoffsetIs = ""
+      if (this.strokeDashoffsetValue > 0) {
+        var strokeDashoffsetIs = "' stroke-dashoffset='" + this.strokeDashoffset
+      }
+      var strokeDashArrayIs = ""
+      if (this.strokeDashArray != "0") {
+        var strokeDashArrayIs = "' stroke-dasharray='" + this.strokeDashArray
+      }
       var codepenhtml =
-        "<svg fill='" +
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100 fill='" +
         this.fillColor +
         "' stroke='" +
         this.strokeColor +
         "' stroke-width='" +
         this.strokeWidth +
-        "' stroke-dashoffset='" +
-        this.strokeDashoffset +
-        "' stroke-dasharray='" +
-        this.strokeDashArray +
-        "' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>" +
+        strokeDashoffsetIs +
+        strokeDashArrayIs +
+        "' stroke-linecap='" +
+        this.lineCap +
+        "' stroke-linejoin='" +
+        this.lineJoin +
+        "'>" +
         icon.editable +
         "</svg>";
       var penArr = {
@@ -273,18 +283,28 @@ export default {
       });
     },
     holaclipboard(icon) {
+      var strokeDashoffsetIs = ""
+      if (this.strokeDashoffsetValue > 0) {
+        var strokeDashoffsetIs = "' stroke-dashoffset='" + this.strokeDashoffset
+      }
+      var strokeDashArrayIs = ""
+      if (this.strokeDashArray != "0") {
+        var strokeDashArrayIs = "' stroke-dasharray='" + this.strokeDashArray
+      }
       this.selectedIcon =
-        "<svg fill='" +
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100 fill='" +
         this.fillColor +
         "' stroke='" +
         this.strokeColor +
         "' stroke-width='" +
         this.strokeWidth +
-        "' stroke-dashoffset='" +
-        this.strokeDashoffset +
-        "' stroke-dasharray='" +
-        this.strokeDashArray +
-        "' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>" +
+        strokeDashoffsetIs +
+        strokeDashArrayIs +
+        "' stroke-linecap='" +
+        this.lineCap +
+        "' stroke-linejoin='" +
+        this.lineJoin +
+        "'>" +
         icon.editable +
         "</svg>";
       this.copyText = "Copied!";
