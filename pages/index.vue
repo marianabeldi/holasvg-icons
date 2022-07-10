@@ -257,7 +257,7 @@ export default {
         var strokeDashArrayIs = "' stroke-dasharray='" + this.strokeDashArray
       }
       var codepenhtml =
-        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100 fill='" +
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='" +
         this.fillColor +
         "' stroke='" +
         this.strokeColor +
@@ -292,7 +292,7 @@ export default {
         var strokeDashArrayIs = "' stroke-dasharray='" + this.strokeDashArray
       }
       this.selectedIcon =
-        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100 fill='" +
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='" +
         this.fillColor +
         "' stroke='" +
         this.strokeColor +
