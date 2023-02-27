@@ -2658,11 +2658,15 @@ async function createApp(ssrContext, config = {}) {
         "as": "style",
         "href": "https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Montserrat:wght@400;500;900"
       }],
-      "style": [],
       "script": [{
+        "src": "https:\u002F\u002Fpagead2.googlesyndication.com\u002Fpagead\u002Fjs\u002Fadsbygoogle.js",
+        "data-ad-client": "ca-pub-6891714364460101",
+        "async": true
+      }, {
         "hid": "gf-script",
         "innerHTML": "(function(){var l=document.createElement('link');l.rel=\"stylesheet\";l.href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Montserrat:wght@400;500;900\";document.querySelector(\"head\").appendChild(l);})();"
       }],
+      "style": [],
       "noscript": [{
         "hid": "gf-noscript",
         "innerHTML": "\u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Montserrat:wght@400;500;900\"\u003E"
